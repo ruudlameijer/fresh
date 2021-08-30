@@ -13,7 +13,7 @@ clown_data_df = pd.DataFrame(clowns, columns = ['Brand', 'Price'])
 
 # Change that is not part of REL 1
 
-# Write recipe outputs
+# Write recipe outputs - this one
 clown_data = dataiku.Dataset("clown_data")
 clown_data.write_with_schema(clown_data_df)
 
