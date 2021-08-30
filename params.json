@@ -126,7 +126,6 @@
     }
   },
   "name": "fresh",
-  "projectStatus": "Sandbox",
   "metrics": {
     "probes": [],
     "engineConfig": {
@@ -182,11 +181,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1630338451604
+    "lastModifiedOn": 1630341552284
   },
   "creationTag": {
     "versionNumber": 0,
@@ -196,7 +195,9 @@
     "lastModifiedOn": 1630338437088
   },
   "shortDesc": "The project *fresh* was created by Administrator on Aug 30th 2021",
-  "tags": [],
+  "tags": [
+    "duplicated"
+  ],
   "customFields": {},
   "checklists": {
     "checklists": [
