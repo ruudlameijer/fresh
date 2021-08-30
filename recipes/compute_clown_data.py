@@ -3,14 +3,15 @@ import dataiku
 import pandas as pd, numpy as np
 from dataiku import pandasutils as pdu
 
+# Generate some data
+clowns = {'Brand': ['Honda Civic','Toyota Corolla','Ford Focus','Audi A4','Mercedes S500'],
+        'Price': [22000,25000,27000,35000,79000]
+        }
 
+# Convert to dataframe
+clown_data_df = pd.DataFrame(clowns, columns = ['Brand', 'Price'])
 
-# Compute recipe outputs
-# TODO: Write here your actual code that computes the outputs
-# NB: DSS supports several kinds of APIs for reading and writing data. Please see doc.
-
-clown_data_df = ... # Compute a Pandas dataframe to write into clown_data
-
+# Change that is not part of REL 1
 
 # Write recipe outputs
 clown_data = dataiku.Dataset("clown_data")
