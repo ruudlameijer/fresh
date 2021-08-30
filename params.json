@@ -125,8 +125,7 @@
       }
     }
   },
-  "name": "fresh",
-  "projectStatus": "Sandbox",
+  "name": "fresh (fresh_br)",
   "metrics": {
     "probes": [],
     "engineConfig": {
@@ -182,11 +181,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1630338451604
+    "lastModifiedOn": 1630341554449
   },
   "creationTag": {
     "versionNumber": 0,
@@ -195,8 +194,10 @@
     },
     "lastModifiedOn": 1630338437088
   },
-  "shortDesc": "The project *fresh* was created by Administrator on Aug 30th 2021",
-  "tags": [],
+  "shortDesc": "The project *fresh* was created by Administrator on Aug 30th 2021\nThe project *FRESH_FRESH_BR* was copied from *FRESH_1* on *2704b815c964f3e554043bf5673da548f837e6a4* branch by Administrator on Aug 30th 2021",
+  "tags": [
+    "duplicated"
+  ],
   "customFields": {},
   "checklists": {
     "checklists": [
