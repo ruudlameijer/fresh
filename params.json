@@ -9,7 +9,38 @@
   "projectType": "REGULAR",
   "projectAppType": "REGULAR",
   "owner": "admin",
-  "permissions": [],
+  "permissions": [
+    {
+      "group": "data_team",
+      "admin": false,
+      "readProjectContent": false,
+      "writeProjectContent": false,
+      "exportDatasetsData": false,
+      "readDashboards": false,
+      "writeDashboards": false,
+      "moderateDashboards": false,
+      "runScenarios": false,
+      "manageDashboardAuthorizations": false,
+      "manageExposedElements": false,
+      "manageAdditionalDashboardUsers": false,
+      "executeApp": false
+    },
+    {
+      "user": "rlameijer",
+      "admin": false,
+      "readProjectContent": false,
+      "writeProjectContent": true,
+      "exportDatasetsData": true,
+      "readDashboards": false,
+      "writeDashboards": false,
+      "moderateDashboards": false,
+      "runScenarios": false,
+      "manageDashboardAuthorizations": false,
+      "manageExposedElements": false,
+      "manageAdditionalDashboardUsers": false,
+      "executeApp": false
+    }
+  ],
   "additionalDashboardUsers": {
     "users": []
   },
@@ -183,11 +214,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 3,
+    "versionNumber": 4,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1633365015069
+    "lastModifiedOn": 1633606012865
   },
   "creationTag": {
     "versionNumber": 0,
