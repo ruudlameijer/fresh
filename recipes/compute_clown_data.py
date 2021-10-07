@@ -19,3 +19,4 @@ clown_data.write_with_schema(clown_data_df)
 
 # Can this be fetched and what does that mean?
 # A 2nd commit
+# Commit by rlameijer 
